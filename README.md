@@ -1,6 +1,6 @@
 # electric_yellow
 
-A targeted collection of highly probable injection payloads.
+A targeted collection of highly probable payloads.
 
 - Targetted "hit-lists" for application fuzzing and parameter injection.
 - Seek quick response hits, resulting in faster vulnerability enumeration.

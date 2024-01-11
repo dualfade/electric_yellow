@@ -9,6 +9,10 @@ A targeted collection of highly probable injection payloads.
 
 ### Fuzz
 
+- fuzz_http_methods
+  - http methods fuzz list
+  - [ianna](https://www.iana.org/assignments/http-methods/http-methods.xhtml)
+
 ### Injection
 
 - inj_jsfuck.txt

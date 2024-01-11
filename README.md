@@ -7,6 +7,16 @@ A targeted collection of highly probable injection payloads.
 - Minimal footprint testing.
 - Easily use with burp intruder or ffuf.
 
+### Fuzz
+
+    - fuzz_jsfuck.txt
+        - baseline jsfuck JavaScript injection payloads
+        - https://jsfuck.com/
+
+### Injection
+
+### ffuf usage
+
 ```zsh
 
 # ~/.ffufrc

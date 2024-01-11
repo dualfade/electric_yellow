@@ -10,7 +10,7 @@ A targeted collection of highly probable injection payloads.
 ### Fuzz
 
 - fuzz_jsfuck.txt
-  - baseline jsfuck JavaScript injection payloads
+  - baseline jsfuck JavaScript fuzzing payloads
   - https://jsfuck.com/
 
 ### Injection

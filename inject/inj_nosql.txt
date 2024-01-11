@@ -18,3 +18,6 @@ db.injection.insert({success:1});return 1;db.stores.mapReduce(function() { { emi
 ';return 'a'=='a' && ''=='
 ";return(true);var xyz='a
 0;return true
+';sleep(5000);
+';it=new%20Date();do{pt=new%20Date();}while(pt-it<5000);
+{$nin: [""]}}

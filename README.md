@@ -9,9 +9,9 @@ A targeted collection of highly probable injection payloads.
 
 ### Fuzz
 
-    - fuzz_jsfuck.txt
-        - baseline jsfuck JavaScript injection payloads
-        - https://jsfuck.com/
+- fuzz_jsfuck.txt
+  - baseline jsfuck JavaScript injection payloads
+  - https://jsfuck.com/
 
 ### Injection
 

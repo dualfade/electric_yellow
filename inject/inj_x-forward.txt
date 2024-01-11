@@ -6,6 +6,9 @@ X-Client-IP: {domain}
 X-Host: {domain}
 X-Forwared-Host: {domain}
 X-Real-Ip: {domain}
+True-Client-IP: {domain}
+Cluster-Client-IP: {domain}
+X-ProxyUser-Ip: {domain}
 X-Original-URL: /admin
 X-Rewrite-Url: /admin
 X-Forwarded-Scheme: nothttps

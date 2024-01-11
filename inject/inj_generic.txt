@@ -3,6 +3,7 @@
 && getent rpc &
 || getent services
 &getent host &
+`getent hosts`
 {}
 {"x":"y"}
 {"x:0}

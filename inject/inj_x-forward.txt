@@ -1,0 +1,11 @@
+X-Originating-IP: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+X-Remote-IP: 127.0.0.1
+X-Remote-Addr: 127.0.0.1
+X-Client-IP: 127.0.0.1
+X-Host: 127.0.0.1
+X-Forwared-Host: 127.0.0.1
+X-Real-Ip: 127.0.0.1
+X-Original-URL: /admin
+X-Rewrite-Url: /admin
+X-Forwarded-Scheme: nothttps

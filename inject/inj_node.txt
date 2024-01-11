@@ -1,0 +1,11 @@
+process.arch
+process.argv
+process.argv0
+process.channel
+process.cwd()
+process.geteuid()
+process.geteguid()
+process.getgroups()
+process.pid
+process.platform
+process.version

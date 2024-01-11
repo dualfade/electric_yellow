@@ -32,11 +32,11 @@ A targeted collection of highly probable injection payloads.
 
 ## Hitlist Usage
 
-[generic.txt](https://github.com/dualfade/electric_yellow/blob/main/generic.txt) generic.txt: This list contains a concise but varied list of fuzzing payloads. Run this during your initial testing of POST/GET parameters looking for anomalous behavior. Any interesting behavior detected should help inform more focused tests.
+[generic.txt](https://github.com/dualfade/electric_yellow/blob/main/fuzz/generic.txt) generic.txt: This list contains a concise but varied list of fuzzing payloads. Run this during your initial testing of POST/GET parameters looking for anomalous behavior. Any interesting behavior detected should help inform more focused tests.
 
 [separators.txt](https://github.com/dualfade/electric_yellow/blob/main/separators.txt): This file contains the payloads which would replace the {separator} keyword.
 
-[generic_api.txt](https://github.com/dualfade/electric_yellow/blob/main/generic_api.txt): Use this in tandem with separators.txt where the entries would replace the {payload} keyword during fuzzing. 
+[generic_api.txt](https://github.com/dualfade/electric_yellow/blob/main/inject/generic_api.txt): Use this in tandem with separators.txt where the entries would replace the {payload} keyword during fuzzing. 
 
 ```json
 {

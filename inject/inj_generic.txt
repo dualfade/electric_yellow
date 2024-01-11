@@ -1,4 +1,10 @@
-whoami
+;getent hosts
+|tee -a ./f &
+&& getent rpc &
+|| getent services
+&getent host &
 {"$where":"sleep(1000)"}
 ;%00
 -- -
+a'a\'b"c>?>%}}%%>c<[[?${{%}}Electric_Yellow\
+${{<%[%'"}}%\.,

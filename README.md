@@ -13,7 +13,7 @@ A targeted collection of highly probable injection payloads.
 
 - inj_jsfuck.txt
   - baseline jsfuck JavaScript injection payloads
-  - https://jsfuck.com/
+  - [jsfuck](https://jsfuck.com/)
 
 ### ffuf usage
 

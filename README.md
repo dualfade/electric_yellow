@@ -9,6 +9,8 @@ A targeted collection of highly probable injection payloads.
 
 ### Fuzz
 
+- todo
+
 ### Injection
 
 - inj_jsfuck.txt

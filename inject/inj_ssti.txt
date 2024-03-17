@@ -64,3 +64,9 @@ ${{7*7}}
 #{7*7}
 ${foobar}
 {% debug %}
+{{ . }}
+{{printf "%s" "ssti" }}
+{{html "ssti"}}, {{js "ssti"}}
+{{.Email}}
+{{.Id}}
+{{23 -}} < {{- 45}}

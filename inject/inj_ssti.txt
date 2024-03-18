@@ -65,6 +65,7 @@ ${{7*7}}
 ${foobar}
 {% debug %}
 {{ . }}
+{{printf "electric_yellow"}}
 {{html "ssti"}}
 {{js "ssti"}}
 {{.Email}}

@@ -68,5 +68,7 @@ ${foobar}
 {{printf "%s" "ssti" }}
 {{html "ssti"}}, {{js "ssti"}}
 {{.Email}}
+{{.Password}}
 {{.Id}}
 {{23 -}} < {{- 45}}
+`{{define "T1"}}<script>alert(1)</script>{{end}} {{template "T1"}}`

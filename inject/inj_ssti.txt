@@ -71,5 +71,6 @@ ${foobar}
 {{.Email}}
 {{.Password}}
 {{.Id}}
+{{.System "id"}}
 {{23 -}} < {{- 45}}
 `{{define "T1"}}<script>alert(1)</script>{{end}} {{template "T1"}}`

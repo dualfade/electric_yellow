@@ -36,3 +36,6 @@ ${{15668*2}}
 #{15668*2}
 {% debug %}
 {php}echo `id`;{/php}
+_cat
+/_cluster
+/_security

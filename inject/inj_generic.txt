@@ -2,15 +2,18 @@
 |tee -a ./f &
 && getent rpc &
 || getent services
-&getent host &
-`getent hosts`
-{}
+)&getent host &
+{
+}`getent hosts`
+[
+[1,2]
 {"x":"y"}
 {"x:0}
 {"0":"\x00"}
 {"$where":"sleep(1000)"}
 {Electric_Yellow:{"x":null}}
 ;%00
+)
 ')
 ")
 ;

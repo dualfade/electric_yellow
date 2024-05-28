@@ -21,11 +21,11 @@ A targeted collection of highly probable injection payloads.
 
 ```zsh
 
-# ~/.ffufrc
+# ~/.ffufrc ex;
 [input]
     wordlists = [
         "file1.txt:EY_FILE1",
-        "file2,txt:EY_FILE2",
+        "file2.txt:EY_FILE2",
         "file3.txt:EY_FILE3",
         "file4.txt:EY_FILE4"
     ]

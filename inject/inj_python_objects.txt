@@ -1,6 +1,6 @@
-__init__.__globals__[<name>].config
-__init__.__globals__[<name>].__dict__
-__init__.__globals__[<name>].__dict__.config
-__class__.__init__.__globals__[<name>].config
-__class__.__init__.__globals__[<name>].__dict__
-__class__.__init__.__globals__[<name>].__dict__.config
+__init__.__globals__["{module}"].config
+__init__.__globals__["{module}"].__dict__
+__init__.__globals__["{module}"].__dict__.config
+__class__.__init__.__globals__["{module}"].config
+__class__.__init__.__globals__["{module}"].__dict__
+__class__.__init__.__globals__["{module}"].__dict__.config

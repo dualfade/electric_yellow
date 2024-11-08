@@ -1,0 +1,13 @@
+x-request-id: {payload}
+x-requestid: {payload}
+request-id: {payload}
+x-correlation-id: {payload}
+x-correlationid: {payload}
+x-{company}-correlation-id: {payload}
+x-{company}-request-id: {payload}
+x-trace-id: {payload}
+interactionid: {payload}
+x-unique-id: {payload}
+activity-id: {payload}
+x-activity-id: {payload}
+service-transaction-id: {payload}

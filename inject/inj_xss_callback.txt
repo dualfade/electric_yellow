@@ -1,0 +1,2 @@
+<img src="http://{domain}/electric_yellow.png" />
+<img src="x" onerror="fetch('http://{domain}/electric_yellow')" />

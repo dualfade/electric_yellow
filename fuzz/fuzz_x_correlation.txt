@@ -11,3 +11,4 @@ x-unique-id: {payload}
 activity-id: {payload}
 x-activity-id: {payload}
 service-transaction-id: {payload}
+x-middleware-subrequest: {payload}

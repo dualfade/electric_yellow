@@ -63,15 +63,3 @@ undefined
 ||
 }}{{15668*2}}
 ~'!@#$%^&?*:()[]|\-_+,./
-global.process === process
-global.require === require
-require('fs')
-global.require('fs')
-global.process.mainModule.require('fs')
-child_process.execSync('id').toString();
-child_process.execSync('id');
-require('child_process').execSync('id').toString();
-({}).constructor.constructor
-[].filter.constructor
-({}).constructor.constructor === Function
-"[].filter[\"con\"+\"structor\"](\"return pro\"+\"cess\")()

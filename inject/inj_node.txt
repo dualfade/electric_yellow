@@ -12,6 +12,8 @@ process.version
 global.process === process
 global.require === require
 require('fs')
+fs = require('fs');
+http = require('http');
 global.require('fs')
 global.process.mainModule.require('fs')
 child_process.execSync('id').toString();

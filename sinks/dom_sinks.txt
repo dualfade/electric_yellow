@@ -1,15 +1,82 @@
 document.write(
-window.location
-document.cookie
-eval(
-document.domain
-WebSocket(
-element.src
-postMessage(
-setRequestHeader(
-FileReader.readAsText(
-ExecuteSql(
-sessionStorage.setItem(
-document.evaluate(
-JSON.parse(
+document.writeln(
+element.innerHTML =
+element.outerHTML =
+element.insertAdjacentHTML(
 element.setAttribute(
+element.src =
+element.href =
+element.action =
+element.formAction =
+element.data =
+element.codeBase =
+element.background =
+element.srcdoc =
+eval(
+Function(
+setTimeout(
+setInterval(
+execScript(
+location =
+window.location =
+document.location =
+location.href =
+location.assign(
+location.replace(
+location.search =
+location.hash =
+document.cookie
+localStorage.setItem(
+sessionStorage.setItem(
+localStorage.getItem(
+sessionStorage.getItem(
+postMessage(
+window.postMessage(
+addEventListener("message"
+onmessage =
+JSON.parse(
+jQuery.parseJSON(
+$.parseJSON(
+document.domain =
+document.evaluate(
+XPathEvaluator(
+XMLHttpRequest(
+xhr.open(
+xhr.setRequestHeader(
+fetch(
+Request(
+Headers(
+setRequestHeader(
+WebSocket(
+EventSource(
+navigator.sendBeacon(
+FileReader.readAsText(
+FileReader.readAsDataURL(
+Blob(
+URL.createObjectURL(
+history.pushState(
+history.replaceState(
+window.open(
+iframe.src =
+iframe.srcdoc =
+script.src =
+link.href =
+img.src =
+audio.src =
+video.src =
+source.src =
+object.data =
+embed.src =
+CSSStyleSheet.insertRule(
+style.cssText =
+element.style =
+element.style.backgroundImage =
+Range.createContextualFragment(
+DOMParser.parseFromString(
+template.innerHTML =
+document.createElement(
+document.importNode(
+document.adoptNode(
+ExecuteSql(
+openDatabase(
+indexedDB.open(

@@ -1,32 +1,45 @@
-process.arch
-process.argv
-process.argv0
-process.channel
-process.cwd()
-process.geteuid()
-process.geteguid()
-process.getgroups()
-process.pid
-process.platform
-process.version
-global.process === process
-global.require === require
-[]
-[].filter
-typeof Array
-typeof "Electric Yellow"
+1+2
+2*21
+"Electric Yellow"
 "Electric Yellow".length
 "Electric Yellow".toUpperCase()
-require('fs')
-fs = require('fs');
-http = require('http');
-global.require('fs')
-global.process.mainModule.require('fs')
-child_process.execSync('id').toString();
-child_process.execSync('id');
-require('child_process').execSync('id').toString();
+typeof 123
+typeof "abc"
+typeof []
+typeof {}
+[1,2,3].length
+({}).toString()
+Math.max(1,2,3)
+Date.now()
+({}).constructor.name
+[].constructor.name
+[].filter.constructor.name
 ({}).constructor.constructor
 [].filter.constructor
 ({}).constructor.constructor === Function
 [].filter["con"+"structor"]
-[].filter["con"+"structor"]("return pro"+"cess")();
+typeof process
+typeof require
+typeof global
+process.platform
+process.arch
+process.version
+process.pid
+process.cwd()
+process.argv
+process.argv0
+process.geteuid && process.geteuid()
+process.getegid && process.getegid()
+process.getgroups && process.getgroups()
+global.process === process
+global.require === require
+typeof require("fs")
+typeof require("http")
+global.require && typeof global.require("fs")
+process.mainModule && typeof process.mainModule.require("fs")
+[].filter.constructor("return process")().platform
+[].filter["con"+"structor"]("return pro"+"cess")().version
+({}).constructor.constructor("return process")().cwd()
+typeof require("child_process")
+require("child_process").execSync("id").toString()
+[].filter.constructor("return process")().mainModule.require("child_process").execSync("id").toString()

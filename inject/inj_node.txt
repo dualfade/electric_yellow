@@ -18,6 +18,7 @@ Date.now()
 [].filter.constructor
 ({}).constructor.constructor === Function
 [].filter["con"+"structor"]
+global["\x70rocess"]
 this.constructor.constructor("return process")()
 typeof process
 typeof require

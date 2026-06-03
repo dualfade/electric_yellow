@@ -20,6 +20,7 @@ Date.now()
 [].filter["con"+"structor"]
 global["\x70rocess"]
 this.constructor.constructor("return process")()
+(function(){ return process.version })()
 typeof process
 typeof require
 typeof global

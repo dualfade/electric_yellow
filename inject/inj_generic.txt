@@ -32,4 +32,4 @@ ZZZZ",'|&$;:`({@<%=ZZZZ
 \u2764"
 %E2%9D%A4'
 \uffff
-\udc2a
+\udc2a\udc2a

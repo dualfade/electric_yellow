@@ -65,7 +65,7 @@ co\u0308opera\u0308tion
 \udbff\udbfb\udbff\udfcf
 ÿþÿÿÿþÿþÿÿÿþÿþÿ
 ' OR 1=1-- 😀
-'; DROP TABLE users; -- 😂
+'; version(); -- 😂
 UNION SELECT * FROM users 👨‍💻
 <script>alert(1)</script>😀
 <img src=x onerror=alert(1)>👨‍💻

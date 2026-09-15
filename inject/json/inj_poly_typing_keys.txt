@@ -1,0 +1,14 @@
+@type
+@class
+"@class"
+"@type"
+__type__
+_type
+class
+$class
+$$class
+[[@class]]
+[@class]
+@class.type
+class.@type
+type.class

